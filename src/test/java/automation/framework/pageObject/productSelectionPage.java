@@ -35,6 +35,7 @@ public class productSelectionPage {
 
 	public void increaseCount(int count) {
 		int i = 0;
+		//int num=Integer.parseInt(count);
 
 		while (i <= count - 1) {
 			driver.findElement(incrementSign).click();

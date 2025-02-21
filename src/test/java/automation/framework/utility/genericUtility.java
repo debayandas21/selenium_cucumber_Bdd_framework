@@ -11,10 +11,10 @@ public class genericUtility {
 		this.driver=driver;
 	}
 	
-	public void WebDriverWait(int arg1) {
+	public void WebDriverWait(int arg1) throws InterruptedException {
 		
 		if(driver!=null) {
-			driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(arg1));
+			Thread.sleep(2000);
 		}
 	}
 }
