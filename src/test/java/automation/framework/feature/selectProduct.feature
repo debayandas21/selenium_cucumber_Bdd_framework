@@ -8,5 +8,4 @@ Feature: Select product from Ecommerce website
   	|ProductName| Cucumber |
      When  Product is displayed with the user entered proudct name.
      Then  User add the product for multiple times.
-  	|Count| 3 |
      And   User clicks on Add to cart.
