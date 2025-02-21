@@ -9,4 +9,5 @@ Feature: Select product from Ecommerce website
      When  Product is displayed with the user entered proudct name.
      Then  User add the product for multiple times.
   	|Count| 4 |
+  	| Name| Tomato |
      And   User clicks on Add to cart.
